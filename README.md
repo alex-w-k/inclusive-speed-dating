@@ -1,24 +1,28 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+# Inclusive Speed Dating
 
 * Ruby version
 
-* System dependencies
-
-* Configuration
+Using ruby 2.4.1
 
 * Database creation
 
-* Database initialization
+`rails db:setup`
 
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+`rspec -f d`
 
 * Deployment instructions
 
-* ...
+Use this [chef repo](https://github.com/alex-w-k/speed-date-chef)
+
+# More about this application
+
+This application will have:
+- In App Messaging
+    - Lowest level of sharing details
+- OAuth with FB and Meetup
+- Share FB Profiles option
+- Stats page
+    - Number of connections, etc
+- Friend Options
