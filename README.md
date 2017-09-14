@@ -10,7 +10,7 @@ Using ruby 2.4.1
 
 * How to run the test suite
 
-`rspec -f d`
+`rspec`
 
 * Deployment instructions
 
