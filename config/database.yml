@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: inclusive-speed-dating_production
-  username: inclusive-speed-dating
-  password: <%= ENV['INCLUSIVE-SPEED-DATING_DATABASE_PASSWORD'] %>
+  username: isd
+  password: password
